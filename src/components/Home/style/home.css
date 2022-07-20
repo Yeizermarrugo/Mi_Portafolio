@@ -66,8 +66,14 @@
 .bxl-whatsapp{
     font-size: 40px;
 }
-button{
+
+.btn{
+    background-color: var(--secondary-color);
     cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(61, 52, 113);
 }
 
 @media screen and (max-width: 720px) {
