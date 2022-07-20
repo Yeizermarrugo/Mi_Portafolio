@@ -41,7 +41,7 @@ const Home = () => {
                         <i class="fa-brands fa-whatsapp bx-tada"></i>
                         </a>
                     </div>
-                    <a href=""><button>Descargar Cv</button></a>
+                    <button><a href="https://drive.google.com/file/d/1XnRwXr5ouzXuZQF7Zmp8Pl3WxleD-L1K/view?usp=sharing" download="CV_YeizerMarrugo" target="_blank">Descargar Cv</a></button>
                 </div>
             </div>
             <div className="arrow">

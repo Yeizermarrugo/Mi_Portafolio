@@ -66,7 +66,9 @@
 .bxl-whatsapp{
     font-size: 40px;
 }
-
+button{
+    cursor: pointer;
+}
 
 @media screen and (max-width: 720px) {
     .img{
