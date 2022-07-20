@@ -38,7 +38,7 @@ const Home = () => {
                             <i className="fa-brands fa-instagram"></i>
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=3002385126&text=Me%20interesa%20tu%20Cv..." target="_blank">
-                        <i class="fa-brands fa-whatsapp bx-tada"></i>
+                        <i className="fa-brands fa-whatsapp bx-tada"></i>
                         </a>
                     </div>
                     <a href="https://drive.google.com/file/d/1XnRwXr5ouzXuZQF7Zmp8Pl3WxleD-L1K/view?usp=sharing" download="CV_YeizerMarrugo" target="_blank"><button className="btn">Descargar Cv</button></a>

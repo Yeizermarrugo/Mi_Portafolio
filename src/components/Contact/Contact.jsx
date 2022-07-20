@@ -17,7 +17,7 @@ const Contact = () => {
         <>
             <form onSubmit={sendEmail}>
               <label>Name</label>
-              <input type="text" name="user_name" placeholder="Full Name" required minlength="1" maxlength="50"/>
+              <input type="text" name="user_name" placeholder="Full Name" required minLength="1" maxLength="50"/>
               <label>Email</label>
               <input type="email" name="user_email" placeholder="@email.com" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
               <label>Message</label>
