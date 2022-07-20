@@ -1,0 +1,126 @@
+.products-container {
+    padding: var(--padding-mobile);
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+.card-product {
+    width: min(100%, 400px);
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    transition: box-shadow 200ms ease;
+    color: var(--primary-color);
+}
+
+.card-product:hover {
+    box-shadow: 1px 1px 10px #888a;
+    transition: box-shadow 200ms ease;
+}
+
+.card-product__header {
+    height: 220px;
+    padding-top: 10px;
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+}
+
+.card-product__img {
+    height: 200px;
+    object-fit: contain;
+    transition: opacity 400ms ease-out;
+    opacity: 1;
+}
+
+.card-product__header:hover .card-product__img {
+    opacity: 0;
+    transition: opacity 400ms ease-out;
+}
+
+.card-product__header:hover .card-product__img-back {
+    opacity: 1;
+    transition: opacity 400ms ease-out;
+}
+
+.card-product__img-back {
+    position: absolute;
+    width: calc(100% - 40px);
+    height: 200px;
+    object-fit: contain;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 400ms ease-out;
+    margin-left: 20px;
+}
+
+.card-product__body {
+    padding: 20px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.card-product__title {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.card-product__label {
+    font-size: 0.8rem;
+    color: #888a;
+    position: relative;
+    left: -5px;
+    top: -15px;
+    margin-bottom: 3px;
+}
+
+.card-product__price-number {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card-product__btn {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: transform 200ms ease;
+    font-size: 25px;
+}
+
+.card-product__btn:hover {
+    transform: scale(1.2);
+    transition: transform 200ms ease;
+}
+
+.card-product__btn2 {
+    position: absolute;
+    right: 80px;
+    bottom: 30px;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: transform 200ms ease;
+    font-size: 25px;
+}
+.card-product__btn2:hover {
+    transform: scale(1.2);
+    transition: transform 200ms ease;
+}
+
+.bx {
+    padding-left: 7px;
+    margin-top: 8px;
+}

@@ -1,0 +1,185 @@
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+.me{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 5%;
+}
+.me>h2{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.me>h3{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+div.me:nth-child(3) > h3:nth-child(1) {
+    padding-top: 100px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    background: grey;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    justify-content: center;
+    align-items: center;
+  }
+  .card0{
+    background: url('../../../img/yeizer.jpg') center center no-repeat;
+    background-size: 200px;
+  }
+  
+    .card0:hover{
+      background: url('../../../img/yeizer.jpg') left center no-repeat;
+      background-size: 400px;
+    }
+  
+.description{
+    color: white;
+    margin: 20px;
+    width: 40%;
+    font-size: 20px;
+}
+.fa-check{
+    color: green;
+}
+
+.pitcher{
+    width: 30%;
+    border-radius: 10%;
+}
+
+.hab{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    padding-left: 30px;
+    border-radius: 10%;
+}
+
+.separator{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    color: rgba(248, 248, 248, 0.253);
+}
+
+
+.fa-circle-arrow-left{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.bxl-html5{
+    color: orangered;
+}
+.bxl-css3{
+    color: rgb(2, 2, 161);
+}
+.bxl-javascript{
+    color: yellow;
+}
+.bxl-react{
+    color:aqua;
+}
+
+.arrow2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    font-size: 200px;
+}
+
+div.arrow:nth-child(4) {
+    padding-top: 3px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 720px) {
+    .me{
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .me>h2{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;        
+    }
+    .me>h3{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;    
+    }
+    div.me:nth-child(3) > h3:nth-child(1) {
+        padding-top: -10px;
+    }
+    .card{
+        margin-left: 0;
+    }
+
+    .description{
+        color: white;
+        margin: 20px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .hab{
+        display: flex;
+        width: 90%;
+        padding-left: 30px;
+    }
+    .pitcher{
+        width: 90%;
+    }
+  
+}
