@@ -21,7 +21,6 @@
 .me>h2{
     display: flex;
     justify-content: center;
-    text-align: justify;
     width: 50%;
     margin-left: 10%;
 }
@@ -29,7 +28,6 @@
 .me>h3{
     display: flex;
     justify-content: center;
-    text-align: justify;
     width: 50%;
     margin-left: 10%;
     font-size: 20px;
@@ -143,7 +141,6 @@ div.arrow:nth-child(4) {
     .me>h2{
         display: flex;
         justify-content: center;
-        text-align: justify;
         width: 100%;
         margin-bottom: 20px;
         padding-left: 20px;
