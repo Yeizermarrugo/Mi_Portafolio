@@ -53,9 +53,9 @@ const About = () => {
                 
                 <i className='bx bxl-html5' ></i>
                 <i class='bx bxl-css3' ></i>
-                <i class='bx bxl-java bx-tada' ></i>
+                <i class='bx bxl-java' ></i>
                 <i class='bx bxl-javascript' ></i>
-                <i class='bx bxl-react bx-spin' ></i>
+                <i class='bx bxl-react' ></i>
             </div>
             <div className="arrow">
             <Link to='/'>
